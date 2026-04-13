@@ -1,8 +1,8 @@
 #pragma once
 
-#include <string>
 #include <functional>
 #include <optional>
+#include <string>
 
 using Callback = std::function<void(std::string_view, std::string_view)>;
 
